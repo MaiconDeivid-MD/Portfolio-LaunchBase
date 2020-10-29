@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        {% block head %}
+            <title>Aline Messias</title>
+        {% endblock %}
+
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="favicom.ico">
+        
+    </head>
+
+    <body>
+        <header>
+            
+            <div Class="links">
+                <a href="/">Sobre</a>
+                <a href="/portfolio">Treinamentos</a>
+            </div>
+        </header>
+        
+        {% block content %}{% endblock%}
+
+    </body>
+
+</html>
